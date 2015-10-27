@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="org.adw.library.widgets.discreteseekbar">
+<class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" final="false" name="DiscreteSeekBar" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DiscreteSeekBar" static="false" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="DiscreteSeekBar" static="false" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="DiscreteSeekBar" static="false" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMax" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMin" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getNumericTransformer" native="false" return="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.NumericTransformer" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getProgress" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isRtl" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onHideBubble" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onShowBubble" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onValueChanged" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorFormatter" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setIndicatorPopupEnabled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMax" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMin" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setNumericTransformer" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.NumericTransformer">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOnProgressChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.OnProgressChangeListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setProgress" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setScrubberColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setScrubberColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setThumbColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setThumbColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTrackColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTrackColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DiscreteSeekBar.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DiscreteSeekBar.2" static="false" visibility="">
+<implements name="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable.MarkerAnimationListener" name-generic-aware="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable.MarkerAnimationListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClosingComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onOpeningComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DiscreteSeekBar.3" static="false" visibility="">
+<implements name="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat.AnimationFrameUpdateListener" name-generic-aware="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat.AnimationFrameUpdateListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationFrame" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.View.BaseSavedState" extends-generic-aware="android.view.View.BaseSavedState" final="false" name="DiscreteSeekBar.CustomState" static="true" visibility="">
+<constructor deprecated="not deprecated" final="false" name="DiscreteSeekBar.CustomState" static="false" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.CustomState" visibility="public">
+<parameter name="p0" type="android.os.Parcelable">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="DiscreteSeekBar.CustomState" static="false" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.CustomState" visibility="public">
+<parameter name="p0" type="android.os.Parcel">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="true" name="CREATOR" static="true" transient="false" type="android.os.Parcelable.Creator" type-generic-aware="android.os.Parcelable.Creator&lt;org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.CustomState&gt;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DiscreteSeekBar.CustomState.1" static="false" visibility="">
+<implements name="android.os.Parcelable.Creator" name-generic-aware="android.os.Parcelable.Creator&lt;org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.CustomState&gt;">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="createFromParcel" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Parcel">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="newArray" native="false" return="java.lang.Object[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.NumericTransformer" extends-generic-aware="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.NumericTransformer" final="false" name="DiscreteSeekBar.DefaultNumericTransformer" static="true" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="transform" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DiscreteSeekBar.NumericTransformer" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DiscreteSeekBar.NumericTransformer" static="false" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar.NumericTransformer" visibility="public">
+</constructor>
+<method abstract="true" deprecated="not deprecated" final="false" name="transform" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="transformToString" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="useStringTransform" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="DiscreteSeekBar.OnProgressChangeListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onProgressChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onStartTrackingTouch" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onStopTrackingTouch" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.adw.library.widgets.discreteseekbar.DiscreteSeekBar">
+</parameter>
+</method>
+</interface>
+</package>
+<package name="org.adw.library.widgets.discreteseekbar.internal">
+<class abstract="false" deprecated="not deprecated" extends="android.view.ViewGroup" extends-generic-aware="android.view.ViewGroup" final="false" name="Marker" static="false" visibility="public">
+<implements name="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable.MarkerAnimationListener" name-generic-aware="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable.MarkerAnimationListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="Marker" static="false" type="org.adw.library.widgets.discreteseekbar.internal.Marker" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="Marker" static="false" type="org.adw.library.widgets.discreteseekbar.internal.Marker" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="Marker" static="false" type="org.adw.library.widgets.discreteseekbar.internal.Marker" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="Marker" static="false" type="org.adw.library.widgets.discreteseekbar.internal.Marker" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateClose" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateOpen" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getValue" native="false" return="java.lang.CharSequence" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClosingComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onLayout" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onOpeningComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="resetSizes" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setColors" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setValue" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PopupIndicator" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="PopupIndicator" static="false" type="org.adw.library.widgets.discreteseekbar.internal.PopupIndicator" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="dismiss" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="dismissComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isShowing" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="move" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setColors" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable.MarkerAnimationListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setValue" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="showIndicator" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.graphics.Rect">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateSizes" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.FrameLayout" extends-generic-aware="android.widget.FrameLayout" final="false" name="PopupIndicator.Floater" static="false" visibility="">
+<implements name="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable.MarkerAnimationListener" name-generic-aware="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable.MarkerAnimationListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="PopupIndicator.Floater" static="false" type="org.adw.library.widgets.discreteseekbar.internal.PopupIndicator.Floater" visibility="public">
+<parameter name="p1" type="android.content.Context">
+</parameter>
+<parameter name="p2" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClosingComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onOpeningComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setColors" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFloatOffset" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+</package>
+<package name="org.adw.library.widgets.discreteseekbar.internal.compat">
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AnimatorCompat" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="cancel" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="create" native="false" return="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat.AnimationFrameUpdateListener">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="isRunning" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setDuration" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="AnimatorCompat.AnimationFrameUpdateListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onAnimationFrame" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat" extends-generic-aware="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat" final="false" name="AnimatorCompat.AnimatorCompatBase" static="true" visibility="">
+<constructor deprecated="not deprecated" final="false" name="AnimatorCompat.AnimatorCompatBase" static="false" type="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat.AnimatorCompatBase" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat.AnimationFrameUpdateListener">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="cancel" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isRunning" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDuration" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat" extends-generic-aware="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat" final="false" name="AnimatorCompatV11" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="AnimatorCompatV11" static="false" type="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompatV11" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="org.adw.library.widgets.discreteseekbar.internal.compat.AnimatorCompat.AnimationFrameUpdateListener">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="cancel" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isRunning" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDuration" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AnimatorCompatV11.1" static="false" visibility="">
+<implements name="android.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="android.animation.ValueAnimator.AnimatorUpdateListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.animation.ValueAnimator">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SeekBarCompat" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SeekBarCompat" static="false" type="org.adw.library.widgets.discreteseekbar.internal.compat.SeekBarCompat" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRipple" native="false" return="android.graphics.drawable.Drawable" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isHardwareAccelerated" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isInScrollingContainer" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewParent">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setBackground" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.graphics.drawable.Drawable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setHotspotBounds" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.drawable.Drawable">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOutlineProvider" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTextDirection" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.TextView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SeekBarCompatDontCrash" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="getRipple" native="false" return="android.graphics.drawable.Drawable" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isHardwareAccelerated" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isInScrollingContainer" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewParent">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setBackground" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.graphics.drawable.Drawable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOutlineProvider" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTextDirection" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.TextView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.ViewOutlineProvider" extends-generic-aware="android.view.ViewOutlineProvider" final="false" name="SeekBarCompatDontCrash.1" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="getOutline" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.graphics.Outline">
+</parameter>
+</method>
+</class>
+</package>
+<package name="org.adw.library.widgets.discreteseekbar.internal.drawable">
+<class abstract="false" deprecated="not deprecated" extends="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" extends-generic-aware="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" final="false" name="AlmostRippleDrawable" static="false" visibility="public">
+<implements name="android.graphics.drawable.Animatable" name-generic-aware="android.graphics.drawable.Animatable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="AlmostRippleDrawable" static="false" type="org.adw.library.widgets.discreteseekbar.internal.drawable.AlmostRippleDrawable" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateToNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateToPressed" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="doDraw" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isRunning" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="stop" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AlmostRippleDrawable.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" extends-generic-aware="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" final="false" name="MarkerDrawable" static="false" visibility="public">
+<implements name="android.graphics.drawable.Animatable" name-generic-aware="android.graphics.drawable.Animatable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="MarkerDrawable" static="false" type="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateToNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateToPressed" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPath" native="false" return="android.graphics.Path" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isRunning" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setColors" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setExternalOffset" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMarkerListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="org.adw.library.widgets.discreteseekbar.internal.drawable.MarkerDrawable.MarkerAnimationListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="stop" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MarkerDrawable.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="MarkerDrawable.MarkerAnimationListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onClosingComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onOpeningComplete" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="true" deprecated="not deprecated" extends="android.graphics.drawable.Drawable" extends-generic-aware="android.graphics.drawable.Drawable" final="false" name="StateDrawable" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="StateDrawable" static="false" type="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="draw" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOpacity" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAlpha" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setColorFilter" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.ColorFilter">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setColorStateList" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" extends-generic-aware="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" final="false" name="ThumbDrawable" static="false" visibility="public">
+<implements name="android.graphics.drawable.Animatable" name-generic-aware="android.graphics.drawable.Animatable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="ThumbDrawable" static="false" type="org.adw.library.widgets.discreteseekbar.internal.drawable.ThumbDrawable" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateToNormal" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateToPressed" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="doDraw" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isRunning" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="stop" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="DEFAULT_SIZE_DP" static="true" transient="false" type="int" type-generic-aware="int" value="12" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ThumbDrawable.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" extends-generic-aware="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" final="false" name="TrackOvalDrawable" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="TrackOvalDrawable" static="false" type="org.adw.library.widgets.discreteseekbar.internal.drawable.TrackOvalDrawable" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" extends-generic-aware="org.adw.library.widgets.discreteseekbar.internal.drawable.StateDrawable" final="false" name="TrackRectDrawable" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="TrackRectDrawable" static="false" type="org.adw.library.widgets.discreteseekbar.internal.drawable.TrackRectDrawable" visibility="public">
+<parameter name="p0" type="android.content.res.ColorStateList">
+</parameter>
+</constructor>
+</class>
+</package>
+</api>

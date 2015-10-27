@@ -1,0 +1,4 @@
+D:\Projects\NET_Projects\DiscreteSeekBarBinding\DiscreteSeekBarBinding\bin\Debug\DiscreteSeekBarBinding.dll
+D:\Projects\NET_Projects\DiscreteSeekBarBinding\DiscreteSeekBarBinding\bin\Debug\DiscreteSeekBarBinding.pdb
+D:\Projects\NET_Projects\DiscreteSeekBarBinding\DiscreteSeekBarBinding\obj\Debug\DiscreteSeekBarBinding.dll
+D:\Projects\NET_Projects\DiscreteSeekBarBinding\DiscreteSeekBarBinding\obj\Debug\DiscreteSeekBarBinding.pdb
